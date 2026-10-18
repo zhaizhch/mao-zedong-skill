@@ -10,9 +10,8 @@ set -euo pipefail
 
 REPO_NAME="${REPO_NAME:-mao-zedong-skill}"
 DESC="毛泽东语料库收束 skill：154 条可考语料 + 文风仿写，为完成的任务写一段不空不假的总结"
-VISIBILITY="public"
-
-[[ "${1:-}" == "--private" ]] && VISIBILITY="false" || VISIBILITY="true"
+PRIVATE="false"
+[[ "${1:-}" == "--private" ]] && PRIVATE="true"
 
 if [[ -z "${GITHUB_TOKEN:-}" ]]; then
   cat >&2 <<'EOF'
@@ -35,7 +34,7 @@ if [[ -z "$LOGIN" ]]; then
   echo "Token 无效或无法读取用户信息。" >&2
   exit 1
 fi
-echo "账号：${LOGIN}  仓库：${LOGIN}/${REPO_NAME}  可见性：$([[ "$VISIBILITY" == "true" ]] && echo public || echo private)"
+echo "账号：${LOGIN}  仓库：${LOGIN}/${REPO_NAME}  可见性：$([[ "$PRIVATE" == "true" ]] && echo private || echo public)"
 
 # 创建仓库；已存在则复用
 code="$(curl -sS -o /tmp/publish_repo.json -w '%{http_code}' \
