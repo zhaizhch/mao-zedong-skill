@@ -99,8 +99,13 @@ def check_skill_md() -> str:
     desc = re.search(r"^description:\s*(.+)$", fm, re.M)
     if not name:
         errors.append("SKILL.md frontmatter 缺少 name")
-    elif name.group(1).strip() != ROOT.name:
-        errors.append(f"SKILL.md name（{name.group(1).strip()}）与目录名（{ROOT.name}）不一致")
+    else:
+        nm = name.group(1).strip()
+        if nm != ROOT.name:
+            if nm == "mao-zedong":
+                warnings.append(f"目录名是 {ROOT.name}，安装时请改为 {nm}（或软链为 {nm}）")
+            else:
+                errors.append(f"SKILL.md name（{nm}）与目录名（{ROOT.name}）不一致")
     if not desc:
         errors.append("SKILL.md frontmatter 缺少 description")
     elif len(desc.group(1).strip()) > 1024:
