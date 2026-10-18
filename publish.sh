@@ -40,7 +40,7 @@ echo "账号：${LOGIN}  仓库：${LOGIN}/${REPO_NAME}  可见性：$([[ "$PRIV
 code="$(curl -sS -o /tmp/publish_repo.json -w '%{http_code}' \
   -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
   -X POST https://api.github.com/user/repos \
-  -d "{\"name\":\"$REPO_NAME\",\"description\":\"$DESC\",\"private\":$VISIBILITY,\"has_issues\":true,\"has_wiki\":false}")"
+  -d "{\"name\":\"$REPO_NAME\",\"description\":\"$DESC\",\"private\":$PRIVATE,\"has_issues\":true,\"has_wiki\":false}")"
 if [[ "$code" == "201" ]]; then
   echo "已创建仓库。"
 elif [[ "$code" == "422" ]]; then
