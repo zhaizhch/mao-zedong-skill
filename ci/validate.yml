@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 生成物是否与语料同步
+        run: python3 scripts/build_index.py --check
+      - name: 自检
+        run: python3 scripts/validate.py
+      - name: 冒烟测试（四个命令）
+        run: |
+          python3 scripts/mao.py themes > /dev/null
+          python3 scripts/mao.py search 调查 > /dev/null
+          python3 scripts/mao.py pick --scenario code --seed 1 > /dev/null
+          python3 scripts/mao.py brief --scenario review > /dev/null

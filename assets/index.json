@@ -1,0 +1,2064 @@
+{
+  "meta": {
+    "name": "mao-zedong-corpus",
+    "title": "毛泽东语料库",
+    "version": "1.0.0",
+    "compiled": "2026-10-18",
+    "license": "CC-BY-4.0（整理与注释部分）；原文引用仅作评论、教学之用",
+    "note": "本库为 skill 的结构化数据源。type: quote(文章/讲话) / poem(诗词) / motto(题词) / letter(书信)。attribution: certain(可考出处) / widely-attributed(流传广但版本不一)。所有仿写必须标注【仿写】，不得混入原文。"
+  },
+  "themes": [
+    {
+      "key": "practice",
+      "name": "实践与认识",
+      "intro": "知与行的关系。最适合收束「做完了、跑通了、交付了」这类任务。"
+    },
+    {
+      "key": "investigation",
+      "name": "调查研究",
+      "intro": "先看清事实再下判断。最适合收束调研、排障、需求澄清类任务。"
+    },
+    {
+      "key": "contradiction",
+      "name": "矛盾与本质",
+      "intro": "抓主要矛盾、具体问题具体分析。最适合收束分析、诊断、方案取舍类任务。"
+    },
+    {
+      "key": "strategy",
+      "name": "战略与战术",
+      "intro": "全局与局部、藐视与重视。最适合收束规划、攻坚、资源分配类任务。"
+    },
+    {
+      "key": "perseverance",
+      "name": "困难与坚持",
+      "intro": "看到光明、承认曲折。最适合收束受挫、延期、硬仗收尾。"
+    },
+    {
+      "key": "masses",
+      "name": "群众与协作",
+      "intro": "向一线学习、从用户中来。最适合收束协作、产品、用户研究类任务。"
+    },
+    {
+      "key": "learning",
+      "name": "学习与本领",
+      "intro": "本领恐慌与重新学习。最适合收束学习、转型、能力补课类任务。"
+    },
+    {
+      "key": "method",
+      "name": "工作方法",
+      "intro": "抓紧、抓典型、弹钢琴。最适合收束执行、节奏、多线并行类任务。"
+    },
+    {
+      "key": "criticism",
+      "name": "批评与复盘",
+      "intro": "打扫房子、治病救人。最适合收束复盘、返工、事故分析。"
+    },
+    {
+      "key": "time",
+      "name": "时间与紧迫",
+      "intro": "只争朝夕。最适合收束拖延、抢工期、窗口期任务。"
+    },
+    {
+      "key": "youth",
+      "name": "青年与希望",
+      "intro": "早晨八九点钟的太阳。最适合收束新人成长、带教、长期主义。"
+    },
+    {
+      "key": "unity",
+      "name": "团结与同心",
+      "intro": "五湖四海走到一起。最适合收束团队组建、跨部门协作。"
+    },
+    {
+      "key": "courage",
+      "name": "胆略与气势",
+      "intro": "不怕、敢闯、从头越。最适合收束从零起步、硬骨头、里程碑。"
+    },
+    {
+      "key": "writing",
+      "name": "文风与表达",
+      "intro": "反对党八股。最适合收束写作、文档、汇报、命名类任务。"
+    },
+    {
+      "key": "creation",
+      "name": "创造与创业",
+      "intro": "一张白纸、自己动手。最适合收束从零搭建、重构、开源首发。"
+    }
+  ],
+  "entries": [
+    {
+      "id": "q001",
+      "type": "quote",
+      "text": "没有调查，没有发言权。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "practice"
+      ],
+      "note": "最硬的起手式。任何“我觉得”之前，先问数据从哪来。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q002",
+      "type": "quote",
+      "text": "你对于那个问题不能解决么？那末，你就去调查那个问题的现状和它的历史吧！你完完全全调查明白了，你对那个问题就有解决的办法了。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "method"
+      ],
+      "note": "卡住时不是继续空想，而是去补“现状”和“历史”两门课。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q003",
+      "type": "quote",
+      "text": "调查就像“十月怀胎”，解决问题就像“一朝分娩”。调查就是解决问题。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "practice"
+      ],
+      "note": "调查有孕育期，别指望十分钟就要结论。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q004",
+      "type": "quote",
+      "text": "你要知道梨子的滋味，你就得变革梨子，亲口吃一吃。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice",
+        "learning"
+      ],
+      "note": "亲手跑一遍，胜过十篇二手总结。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q005",
+      "type": "quote",
+      "text": "实践、认识、再实践、再认识，这种形式，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice",
+        "learning"
+      ],
+      "note": "迭代闭环的原始表述，比“快速试错”多了一层“进到高一级”。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q006",
+      "type": "quote",
+      "text": "感觉到了的东西，我们不能立刻理解它，只有理解了的东西才更深刻地感觉它。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice",
+        "criticism"
+      ],
+      "note": "复盘的意义：把“感觉”升级为“理解”。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q007",
+      "type": "quote",
+      "text": "知识的问题是一个科学问题，来不得半点的虚伪和骄傲，决定地需要的倒是其反面——诚实和谦逊的态度。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "learning",
+        "practice"
+      ],
+      "note": "承认不会，是学习的真正起点。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q008",
+      "type": "quote",
+      "text": "一切真知都是从直接经验发源的。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice"
+      ],
+      "note": "短、硬，适合放在交付说明的开头。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q009",
+      "type": "quote",
+      "text": "通过实践而发现真理，又通过实践而证实真理和发展真理。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice"
+      ],
+      "note": "发现—证实—发展，三步缺一不可。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q010",
+      "type": "quote",
+      "text": "我们不但要提出任务，而且要解决完成任务的方法问题。我们的任务是过河，但是没有桥或没有船就不能过。不解决桥或船的问题，过河就是一句空话。",
+      "source": "《关心群众生活，注意工作方法》",
+      "year": "1934",
+      "themes": [
+        "method",
+        "practice"
+      ],
+      "note": "目标—路径—工具，缺一环就是空话。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q011",
+      "type": "quote",
+      "text": "马克思主义的哲学认为十分重要的问题，不在于懂得了客观世界的规律性，因而能够解释世界，而在于拿了这种对于客观规律性的认识去能动地改造世界。",
+      "source": "《实践论》",
+      "year": "1937",
+      "themes": [
+        "practice",
+        "creation"
+      ],
+      "note": "解释得漂亮不算完成，改得动才算。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q012",
+      "type": "quote",
+      "text": "没有正确的调查，同样没有发言权。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation"
+      ],
+      "note": "调查方法错了，结论照样不成立。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q013",
+      "type": "quote",
+      "text": "一切结论产生于调查情况的末尾，而不是在它的先头。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "method"
+      ],
+      "note": "先收集再判断，顺序不能反。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q014",
+      "type": "quote",
+      "text": "迈开你的两脚，到你的工作范围的各部分各地方去走走，学个孔夫子的“每事问”。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "masses"
+      ],
+      "note": "到现场去，多问一句。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q015",
+      "type": "quote",
+      "text": "你对于某个问题没有调查，就停止你对于某个问题的发言权。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation"
+      ],
+      "note": "对自己也适用：不确定就别下断言。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q016",
+      "type": "quote",
+      "text": "中国革命斗争的胜利要靠中国同志了解中国情况。",
+      "source": "《反对本本主义》",
+      "year": "1930",
+      "themes": [
+        "investigation",
+        "practice"
+      ],
+      "note": "别人的最佳实践，替代不了你对自身处境的理解。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q017",
+      "type": "quote",
+      "text": "要了解情况，唯一的方法是向社会作调查，调查社会各阶级的生动情况。",
+      "source": "《〈农村调查〉的序言和跋》",
+      "year": "1941",
+      "themes": [
+        "investigation"
+      ],
+      "note": "调研要抓“生动的”细节，不是报表上的平均数。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q018",
+      "type": "quote",
+      "text": "没有满腔的热忱，没有眼睛向下的决心，没有求知的渴望，没有放下臭架子、甘当小学生的精神，是一定不能做，也一定做不好的。",
+      "source": "《〈农村调查〉的序言和跋》",
+      "year": "1941",
+      "themes": [
+        "investigation",
+        "masses",
+        "learning"
+      ],
+      "note": "调研的四种姿态：热忱、向下、求知、当小学生。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q019",
+      "type": "quote",
+      "text": "群众是真正的英雄，而我们自己则往往是幼稚可笑的，不了解这一点，就不能得到起码的知识。",
+      "source": "《〈农村调查〉的序言和跋》",
+      "year": "1941",
+      "themes": [
+        "masses",
+        "investigation"
+      ],
+      "note": "用户和一线，往往比设计者更懂问题。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q020",
+      "type": "quote",
+      "text": "开调查会，是最简单易行又最忠实可靠的方法。",
+      "source": "《〈农村调查〉的序言和跋》",
+      "year": "1941",
+      "themes": [
+        "investigation",
+        "method"
+      ],
+      "note": "拉几个人当面聊，比发问卷有效。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q021",
+      "type": "quote",
+      "text": "眼睛向下，不要只是昂首望天。",
+      "source": "《〈农村调查〉的序言和跋》",
+      "year": "1941",
+      "themes": [
+        "masses",
+        "method"
+      ],
+      "note": "少看大盘，多看脚下。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q022",
+      "type": "quote",
+      "text": "事物发展的根本原因，不是在事物的外部而是在事物的内部，在于事物内部的矛盾性。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction"
+      ],
+      "note": "找根因，先往内部看。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q023",
+      "type": "quote",
+      "text": "外因是变化的条件，内因是变化的根据，外因通过内因而起作用。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction"
+      ],
+      "note": "环境是条件，结构才是根据。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q024",
+      "type": "quote",
+      "text": "研究问题，忌带主观性、片面性和表面性。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction",
+        "criticism"
+      ],
+      "note": "三面镜子：是否先入为主、只看一角、停在表层。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q025",
+      "type": "quote",
+      "text": "捉住了这个主要矛盾，一切问题就迎刃而解了。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction",
+        "strategy"
+      ],
+      "note": "找出那个“解决它，其他都好办”的点。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q026",
+      "type": "quote",
+      "text": "任何过程如果有多数矛盾存在的话，其中必定有一种是主要的，起着领导的、决定的作用，其他则处于次要和服从的地位。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction"
+      ],
+      "note": "主要矛盾只能有一个，多了等于没有。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q027",
+      "type": "quote",
+      "text": "不同质的矛盾，只有用不同质的方法才能解决。",
+      "source": "《矛盾论》",
+      "year": "1937",
+      "themes": [
+        "contradiction",
+        "method"
+      ],
+      "note": "别拿一把锤子敲所有钉子。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q028",
+      "type": "quote",
+      "text": "坏事也可以转变成为好事。",
+      "source": "《关于正确处理人民内部矛盾的问题》",
+      "year": "1957",
+      "themes": [
+        "contradiction",
+        "criticism"
+      ],
+      "note": "事故复盘的正确姿势：把代价换成认知。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q029",
+      "type": "quote",
+      "text": "我们必须学会全面地看问题，不但要看到事物的正面，也要看到它的反面。",
+      "source": "《关于正确处理人民内部矛盾的问题》",
+      "year": "1957",
+      "themes": [
+        "contradiction"
+      ],
+      "note": "汇报时主动写“代价与风险”，可信度立刻不同。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q030",
+      "type": "quote",
+      "text": "在战略上藐视敌人，在战术上重视敌人。",
+      "source": "《关于目前党的政策中的几个重要问题》",
+      "year": "1948",
+      "themes": [
+        "strategy",
+        "courage"
+      ],
+      "note": "心态上不怕，动作上不飘。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q031",
+      "type": "quote",
+      "text": "一切反动派都是纸老虎。",
+      "source": "《和美国记者安娜·路易斯·斯特朗的谈话》",
+      "year": "1946",
+      "themes": [
+        "strategy",
+        "courage"
+      ],
+      "note": "给“看起来很吓人的难题”祛魅。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q032",
+      "type": "quote",
+      "text": "星星之火，可以燎原。",
+      "source": "《星星之火，可以燎原》",
+      "year": "1930",
+      "themes": [
+        "strategy",
+        "creation",
+        "youth"
+      ],
+      "note": "写给还很小、但方向对的东西。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q033",
+      "type": "quote",
+      "text": "它是站在海岸遥望海中已经看得见桅杆尖头了的一只航船，它是立于高山之巅远看东方已见光芒四射喷薄欲出的一轮朝日，它是躁动于母腹中的快要成熟了的一个婴儿。",
+      "source": "《星星之火，可以燎原》",
+      "year": "1930",
+      "themes": [
+        "strategy",
+        "creation",
+        "youth"
+      ],
+      "note": "写“早期信号”最好的句式：三个可见的征兆，而不是空喊信心。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q034",
+      "type": "quote",
+      "text": "集中优势兵力，各个歼灭敌人。",
+      "source": "《集中优势兵力，各个歼灭敌人》",
+      "year": "1946",
+      "themes": [
+        "strategy",
+        "method"
+      ],
+      "note": "资源有限时，一次只打透一个点。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q035",
+      "type": "quote",
+      "text": "伤其十指不如断其一指。",
+      "source": "《目前形势和我们的任务》",
+      "year": "1947",
+      "themes": [
+        "strategy",
+        "method"
+      ],
+      "note": "十个半成品，不如一个能用的。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q036",
+      "type": "quote",
+      "text": "打得赢就打，打不赢就走。",
+      "source": "《抗日游击战争的战略问题》",
+      "year": "1938",
+      "themes": [
+        "strategy",
+        "method"
+      ],
+      "note": "快速验证、及时止损，不丢人。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q037",
+      "type": "quote",
+      "text": "不打无准备之仗，不打无把握之仗。",
+      "source": "《目前形势和我们的任务》",
+      "year": "1947",
+      "themes": [
+        "strategy",
+        "method"
+      ],
+      "note": "上线前的最后一遍检查，就是这句话。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q038",
+      "type": "quote",
+      "text": "你打你的，我打我的。",
+      "source": "毛泽东军事论述（多处谈话）",
+      "year": "1947",
+      "themes": [
+        "strategy"
+      ],
+      "note": "不被对手的节奏带跑，按自己的节拍走。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q039",
+      "type": "quote",
+      "text": "敌进我退，敌驻我扰，敌疲我打，敌退我追。",
+      "source": "红军游击战术“十六字诀”",
+      "year": "1930",
+      "themes": [
+        "strategy"
+      ],
+      "note": "强弱不对称时的四段节奏。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q040",
+      "type": "quote",
+      "text": "我们的方针要放在什么基点上？放在自己力量的基点上，叫做自力更生。",
+      "source": "《抗日战争胜利后的时局和我们的方针》",
+      "year": "1945",
+      "themes": [
+        "strategy",
+        "creation"
+      ],
+      "note": "先把命运握在自己手里，再谈合作。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q041",
+      "type": "quote",
+      "text": "精兵简政。",
+      "source": "《抗日时期的经济问题和财政问题》等（采纳李鼎铭建议）",
+      "year": "1941",
+      "themes": [
+        "method",
+        "strategy"
+      ],
+      "note": "砍功能、砍流程、砍会议。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q042",
+      "type": "quote",
+      "text": "下定决心，不怕牺牲，排除万难，去争取胜利。",
+      "source": "《愚公移山》",
+      "year": "1945",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "最有力的收束句之一，但别滥用，硬仗才配。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q043",
+      "type": "quote",
+      "text": "我们的同志在困难的时候，要看到成绩，要看到光明，要提高我们的勇气。",
+      "source": "《为人民服务》",
+      "year": "1944",
+      "themes": [
+        "perseverance",
+        "criticism"
+      ],
+      "note": "受挫收束的标准结构：成绩—光明—勇气。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q044",
+      "type": "quote",
+      "text": "道路是曲折的，前途是光明的。",
+      "source": "《关于重庆谈判》",
+      "year": "1945",
+      "themes": [
+        "perseverance",
+        "strategy"
+      ],
+      "note": "八个字，适合放在长项目的中段。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q045",
+      "type": "quote",
+      "text": "中国人死都不怕，还怕困难吗？",
+      "source": "《别了，司徒雷登》",
+      "year": "1949",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "反问句的力道：把困难降格。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q046",
+      "type": "quote",
+      "text": "封锁吧，封锁十年八年，中国的一切问题都解决了。",
+      "source": "《别了，司徒雷登》",
+      "year": "1949",
+      "themes": [
+        "perseverance",
+        "creation"
+      ],
+      "note": "约束条件反而逼出能力，适合写在资源受限的项目里。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q047",
+      "type": "quote",
+      "text": "让他们去说我们这也不行那也不行吧，中国人民的不屈不挠的努力必将稳步地达到自己的目的。",
+      "source": "《中国人民站起来了》（政协第一届全体会议开幕词）",
+      "year": "1949",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "面对质疑时的标准回应：不争辩，交付。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q048",
+      "type": "quote",
+      "text": "我们面前的困难是有的，而且是很多的，但是我们确信：一切困难都将被全国人民的英勇奋斗所战胜。",
+      "source": "《中国人民站起来了》",
+      "year": "1949",
+      "themes": [
+        "perseverance"
+      ],
+      "note": "先承认困难，再给确信，比一上来喊口号可信。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q049",
+      "type": "quote",
+      "text": "夺取全国胜利，这只是万里长征走完了第一步。",
+      "source": "《在中国共产党第七届中央委员会第二次全体会议上的报告》",
+      "year": "1949",
+      "themes": [
+        "perseverance",
+        "criticism",
+        "time"
+      ],
+      "note": "里程碑之后立刻校准预期，防骄防躁。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q050",
+      "type": "quote",
+      "text": "剧是必须从序幕开始的，但序幕还不是高潮。",
+      "source": "《在中国共产党第七届中央委员会第二次全体会议上的报告》",
+      "year": "1949",
+      "themes": [
+        "perseverance",
+        "time"
+      ],
+      "note": "给“才刚开始”一个体面的说法。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q051",
+      "type": "quote",
+      "text": "艰苦奋斗是我们的政治本色。",
+      "source": "毛泽东著作（多处表述）",
+      "year": "1949",
+      "themes": [
+        "perseverance"
+      ],
+      "note": "适合写在长期主义的项目总结里。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q052",
+      "type": "quote",
+      "text": "人民，只有人民，才是创造世界历史的动力。",
+      "source": "《论联合政府》",
+      "year": "1945",
+      "themes": [
+        "masses"
+      ],
+      "note": "把功劳归给用户、同事、一线。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q053",
+      "type": "quote",
+      "text": "从群众中来，到群众中去。",
+      "source": "《关于领导方法的若干问题》",
+      "year": "1943",
+      "themes": [
+        "masses",
+        "method"
+      ],
+      "note": "需求从用户中来，成果回用户中去。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q054",
+      "type": "quote",
+      "text": "我们共产党人好比种子，人民好比土地。我们到了一个地方，就要同那里的人民结合起来，在人民中间生根、开花。",
+      "source": "《关于重庆谈判》",
+      "year": "1945",
+      "themes": [
+        "masses",
+        "creation"
+      ],
+      "note": "产品要生根开花，得先扎进用户的土壤。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q055",
+      "type": "quote",
+      "text": "关心群众生活，注意工作方法。",
+      "source": "《关心群众生活，注意工作方法》",
+      "year": "1934",
+      "themes": [
+        "masses",
+        "method"
+      ],
+      "note": "两件事：把人的处境放在心上，把做法讲清楚。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q056",
+      "type": "quote",
+      "text": "我们应该深刻地注意群众生活的问题，从土地、劳动问题，到柴米油盐问题。",
+      "source": "《关心群众生活，注意工作方法》",
+      "year": "1934",
+      "themes": [
+        "masses",
+        "method"
+      ],
+      "note": "细节即体验，柴米油盐即真需求。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q057",
+      "type": "quote",
+      "text": "我们应当相信群众，我们应当相信党。",
+      "source": "《关于农业合作化问题》",
+      "year": "1955",
+      "themes": [
+        "masses",
+        "unity"
+      ],
+      "note": "相信一线，是一切成事的前提。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q058",
+      "type": "quote",
+      "text": "一切为了群众，一切依靠群众。",
+      "source": "党的群众路线（毛泽东反复阐述）",
+      "year": "1945",
+      "themes": [
+        "masses"
+      ],
+      "note": "八个字，适合做产品价值观的总结。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q059",
+      "type": "quote",
+      "text": "学习的敌人是自己的满足，要认真学习一点东西，必须从不自满开始。",
+      "source": "《中国共产党在民族战争中的地位》",
+      "year": "1938",
+      "themes": [
+        "learning",
+        "criticism"
+      ],
+      "note": "把“我已经会了”当成警报。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q060",
+      "type": "quote",
+      "text": "读书是学习，使用也是学习，而且是更重要的学习。",
+      "source": "《中国革命战争的战略问题》",
+      "year": "1936",
+      "themes": [
+        "learning",
+        "practice"
+      ],
+      "note": "学了不用，等于没学。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q061",
+      "type": "quote",
+      "text": "我们队伍里边有一种恐慌，不是经济恐慌，也不是政治恐慌，而是本领恐慌。",
+      "source": "《在延安在职干部教育动员大会上的讲话》",
+      "year": "1939",
+      "themes": [
+        "learning",
+        "time"
+      ],
+      "note": "焦虑的正确翻译是：该补课了。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q062",
+      "type": "quote",
+      "text": "情况是在不断地变化，要使自己的思想适应新的情况，就得学习。",
+      "source": "《在中国共产党全国宣传工作会议上的讲话》",
+      "year": "1957",
+      "themes": [
+        "learning"
+      ],
+      "note": "环境变了还照旧办法干，就是刻舟求剑。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q063",
+      "type": "quote",
+      "text": "虚心使人进步，骄傲使人落后。",
+      "source": "《中国共产党第八次全国代表大会开幕词》",
+      "year": "1956",
+      "themes": [
+        "learning",
+        "criticism"
+      ],
+      "note": "最短的复盘结论。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q064",
+      "type": "quote",
+      "text": "重要的问题在善于学习。",
+      "source": "《中国革命战争的战略问题》",
+      "year": "1936",
+      "themes": [
+        "learning",
+        "method"
+      ],
+      "note": "不是学不学，而是会不会学。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q065",
+      "type": "quote",
+      "text": "从战争中学习战争——这是我们的主要方法。",
+      "source": "《中国革命战争的战略问题》",
+      "year": "1936",
+      "themes": [
+        "learning",
+        "practice"
+      ],
+      "note": "从项目中学习项目，从写作中学习写作。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q066",
+      "type": "quote",
+      "text": "我们熟习的东西有些快要闲起来了，我们不熟习的东西正在强迫我们去做。这就是困难。",
+      "source": "《在中国共产党第七届中央委员会第二次全体会议上的报告》",
+      "year": "1949",
+      "themes": [
+        "learning",
+        "perseverance"
+      ],
+      "note": "技术换代时最准确的处境描写。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q067",
+      "type": "quote",
+      "text": "我们能够学会我们原来不懂的东西。",
+      "source": "《在中国共产党第七届中央委员会第二次全体会议上的报告》",
+      "year": "1949",
+      "themes": [
+        "learning",
+        "courage"
+      ],
+      "note": "给“从零学起”的人一句话。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q068",
+      "type": "quote",
+      "text": "抓而不紧，等于不抓。",
+      "source": "《党委会的工作方法》",
+      "year": "1949",
+      "themes": [
+        "method"
+      ],
+      "note": "没有截止时间的任务，等于没有任务。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q069",
+      "type": "quote",
+      "text": "学会“弹钢琴”。",
+      "source": "《党委会的工作方法》",
+      "year": "1949",
+      "themes": [
+        "method",
+        "strategy"
+      ],
+      "note": "多线并行要分清主次、有节奏，十个指头都动但不同时按。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q070",
+      "type": "quote",
+      "text": "胸中有“数”。",
+      "source": "《党委会的工作方法》",
+      "year": "1949",
+      "themes": [
+        "method"
+      ],
+      "note": "关键指标要能当场报出数来。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q071",
+      "type": "quote",
+      "text": "把问题摆到桌面上来。",
+      "source": "《党委会的工作方法》",
+      "year": "1949",
+      "themes": [
+        "method",
+        "criticism"
+      ],
+      "note": "别在私下嘀咕，开会说清楚。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q072",
+      "type": "quote",
+      "text": "“安民告示”。",
+      "source": "《党委会的工作方法》",
+      "year": "1949",
+      "themes": [
+        "method",
+        "unity"
+      ],
+      "note": "动手前先对齐，别让人猜。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q073",
+      "type": "quote",
+      "text": "我们需要的是热烈而镇定的情绪，紧张而有秩序的工作。",
+      "source": "《中国革命战争的战略问题》",
+      "year": "1936",
+      "themes": [
+        "method",
+        "courage"
+      ],
+      "note": "对理想工作状态最精确的一句描述。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q074",
+      "type": "quote",
+      "text": "从最坏处着想，向最好处努力。",
+      "source": "毛泽东著作（多处表述）",
+      "year": "1945",
+      "themes": [
+        "method",
+        "strategy"
+      ],
+      "note": "预案与野心并存。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q075",
+      "type": "quote",
+      "text": "惩前毖后，治病救人。",
+      "source": "《整顿党的作风》",
+      "year": "1942",
+      "themes": [
+        "criticism"
+      ],
+      "note": "复盘是为了修好系统，不是为了找人背锅。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q076",
+      "type": "quote",
+      "text": "团结——批评——团结。",
+      "source": "《关于正确处理人民内部矛盾的问题》",
+      "year": "1957",
+      "themes": [
+        "criticism",
+        "unity"
+      ],
+      "note": "冲突处理的完整闭环：先站在一起，再讲问题，再回到一起。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q077",
+      "type": "quote",
+      "text": "知无不言，言无不尽；言者无罪，闻者足戒；有则改之，无则加勉。",
+      "source": "《论联合政府》",
+      "year": "1945",
+      "themes": [
+        "criticism",
+        "unity"
+      ],
+      "note": "给评审会立规矩的四句话。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q078",
+      "type": "quote",
+      "text": "房子是应该经常打扫的，不打扫就会积满了灰尘；脸是应该经常洗的，不洗也就会灰尘满面。",
+      "source": "《论联合政府》",
+      "year": "1945",
+      "themes": [
+        "criticism",
+        "method"
+      ],
+      "note": "比喻技术债与流程腐化最贴切。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q079",
+      "type": "quote",
+      "text": "流水不腐，户枢不蠹。",
+      "source": "《论联合政府》（引古语）",
+      "year": "1945",
+      "themes": [
+        "criticism",
+        "learning"
+      ],
+      "note": "系统要靠流动保持健康。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q080",
+      "type": "quote",
+      "text": "犯了错误则要求改正，改正得越迅速，越彻底，越好。",
+      "source": "《论联合政府》",
+      "year": "1945",
+      "themes": [
+        "criticism",
+        "method"
+      ],
+      "note": "修复速度本身就是能力。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q081",
+      "type": "quote",
+      "text": "多少事，从来急；天地转，光阴迫。一万年太久，只争朝夕。",
+      "source": "《满江红·和郭沫若同志》",
+      "year": "1963",
+      "themes": [
+        "time",
+        "courage"
+      ],
+      "note": "最强的催办句，但要配具体动作，否则只是口号。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q082",
+      "type": "quote",
+      "text": "天地转，光阴迫。",
+      "source": "《满江红·和郭沫若同志》",
+      "year": "1963",
+      "themes": [
+        "time"
+      ],
+      "note": "六个字，适合放在阶段性收束。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q083",
+      "type": "quote",
+      "text": "一万年太久，只争朝夕。",
+      "source": "《满江红·和郭沫若同志》",
+      "year": "1963",
+      "themes": [
+        "time",
+        "courage"
+      ],
+      "note": "最短的动员令。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q084",
+      "type": "quote",
+      "text": "三十八年过去，弹指一挥间。",
+      "source": "《水调歌头·重上井冈山》",
+      "year": "1965",
+      "themes": [
+        "time",
+        "perseverance"
+      ],
+      "note": "回望长周期时的尺度感。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q085",
+      "type": "quote",
+      "text": "世界是你们的，也是我们的，但是归根结底是你们的。你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。希望寄托在你们身上。",
+      "source": "在莫斯科会见中国留学生和实习生的讲话",
+      "year": "1957",
+      "themes": [
+        "youth",
+        "unity"
+      ],
+      "note": "交接与托付，适合带教、传承、新人总结。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q086",
+      "type": "quote",
+      "text": "你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。",
+      "source": "在莫斯科会见中国留学生和实习生的讲话",
+      "year": "1957",
+      "themes": [
+        "youth"
+      ],
+      "note": "写给刚开始的人。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q087",
+      "type": "motto",
+      "text": "好好学习，天天向上。",
+      "source": "为小学生题词",
+      "year": "1951",
+      "themes": [
+        "youth",
+        "learning"
+      ],
+      "note": "八个字，最朴素的成长公式。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q088",
+      "type": "motto",
+      "text": "身体好，学习好，工作好。",
+      "source": "接见青年团第二次全国代表大会主席团时的祝词",
+      "year": "1953",
+      "themes": [
+        "youth",
+        "method"
+      ],
+      "note": "顺序有讲究：身体在前。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q089",
+      "type": "quote",
+      "text": "我们都是来自五湖四海，为了一个共同的革命目标，走到一起来了。",
+      "source": "《为人民服务》",
+      "year": "1944",
+      "themes": [
+        "unity",
+        "masses"
+      ],
+      "note": "团队组建、跨部门协作的开场句。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q090",
+      "type": "quote",
+      "text": "一切革命队伍的人都要互相关心，互相爱护，互相帮助。",
+      "source": "《为人民服务》",
+      "year": "1944",
+      "themes": [
+        "unity",
+        "masses"
+      ],
+      "note": "协作的基本盘。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q091",
+      "type": "poem",
+      "text": "军民团结如一人，试看天下谁能敌。",
+      "source": "《杂言诗·八连颂》",
+      "year": "1963",
+      "themes": [
+        "unity",
+        "courage"
+      ],
+      "note": "强调“如一人”的合力。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q092",
+      "type": "poem",
+      "text": "独有英雄驱虎豹，更无豪杰怕熊罴。",
+      "source": "《七律·冬云》",
+      "year": "1962",
+      "themes": [
+        "courage"
+      ],
+      "note": "对仗里的硬气。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q093",
+      "type": "poem",
+      "text": "梅花欢喜漫天雪，冻死苍蝇未足奇。",
+      "source": "《七律·冬云》",
+      "year": "1962",
+      "themes": [
+        "courage",
+        "perseverance"
+      ],
+      "note": "把逆境写成养分。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q094",
+      "type": "poem",
+      "text": "为有牺牲多壮志，敢教日月换新天。",
+      "source": "《七律·到韶山》",
+      "year": "1959",
+      "themes": [
+        "courage",
+        "perseverance"
+      ],
+      "note": "代价与雄心并置。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q095",
+      "type": "poem",
+      "text": "可上九天揽月，可下五洋捉鳖。",
+      "source": "《水调歌头·重上井冈山》",
+      "year": "1965",
+      "themes": [
+        "courage",
+        "creation"
+      ],
+      "note": "形容能力边界被打开。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q096",
+      "type": "poem",
+      "text": "不管风吹浪打，胜似闲庭信步。",
+      "source": "《水调歌头·游泳》",
+      "year": "1956",
+      "themes": [
+        "courage",
+        "strategy"
+      ],
+      "note": "写从容，不是写轻松。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q097",
+      "type": "poem",
+      "text": "无限风光在险峰。",
+      "source": "《七绝·为李进同志题所摄庐山仙人洞照》",
+      "year": "1961",
+      "themes": [
+        "courage",
+        "creation"
+      ],
+      "note": "给难而正确的事。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q098",
+      "type": "poem",
+      "text": "暮色苍茫看劲松，乱云飞渡仍从容。",
+      "source": "《七绝·为李进同志题所摄庐山仙人洞照》",
+      "year": "1961",
+      "themes": [
+        "courage",
+        "strategy"
+      ],
+      "note": "动荡中的定力。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q099",
+      "type": "poem",
+      "text": "天若有情天亦老，人间正道是沧桑。",
+      "source": "《七律·人民解放军占领南京》",
+      "year": "1949",
+      "themes": [
+        "courage",
+        "contradiction"
+      ],
+      "note": "变化本身即规律。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q100",
+      "type": "poem",
+      "text": "宜将剩勇追穷寇，不可沽名学霸王。",
+      "source": "《七律·人民解放军占领南京》",
+      "year": "1949",
+      "themes": [
+        "strategy",
+        "courage"
+      ],
+      "note": "别在八成处收手。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q101",
+      "type": "quote",
+      "text": "舍得一身剐，敢把皇帝拉下马。",
+      "source": "《做革命的促进派》（引俗语）",
+      "year": "1957",
+      "themes": [
+        "courage"
+      ],
+      "note": "形容豁得出去的决心。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q102",
+      "type": "quote",
+      "text": "空话连篇，言之无物。",
+      "source": "《反对党八股》（第一条罪状）",
+      "year": "1942",
+      "themes": [
+        "writing"
+      ],
+      "note": "文档通病一号。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q103",
+      "type": "quote",
+      "text": "装腔作势，借以吓人。",
+      "source": "《反对党八股》（第二条罪状）",
+      "year": "1942",
+      "themes": [
+        "writing"
+      ],
+      "note": "术语堆砌就是这一条。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q104",
+      "type": "quote",
+      "text": "无的放矢，不看对象。",
+      "source": "《反对党八股》（第三条罪状）",
+      "year": "1942",
+      "themes": [
+        "writing",
+        "masses"
+      ],
+      "note": "写给谁看，决定怎么写。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q105",
+      "type": "quote",
+      "text": "语言无味，像个瘪三。",
+      "source": "《反对党八股》（第四条罪状）",
+      "year": "1942",
+      "themes": [
+        "writing"
+      ],
+      "note": "干瘪的句子，没人愿意读第二遍。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q106",
+      "type": "quote",
+      "text": "甲乙丙丁，开中药铺。",
+      "source": "《反对党八股》（第五条罪状）",
+      "year": "1942",
+      "themes": [
+        "writing",
+        "method"
+      ],
+      "note": "罗列现象而不解决问题，就是开药铺。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q107",
+      "type": "quote",
+      "text": "洋八股必须废止，空洞抽象的调头必须少唱，教条主义必须休息。",
+      "source": "《反对党八股》",
+      "year": "1942",
+      "themes": [
+        "writing"
+      ],
+      "note": "三个“必须”，排比收束的范本。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q108",
+      "type": "quote",
+      "text": "为中国老百姓所喜闻乐见的中国作风和中国气派。",
+      "source": "《中国共产党在民族战争中的地位》",
+      "year": "1938",
+      "themes": [
+        "writing",
+        "masses"
+      ],
+      "note": "好文风的标准：听得懂、记得住、用得上。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q109",
+      "type": "quote",
+      "text": "准确性、鲜明性、生动性。",
+      "source": "《工作方法六十条（草案）》",
+      "year": "1958",
+      "themes": [
+        "writing"
+      ],
+      "note": "文章三性，可直接当审稿清单。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q110",
+      "type": "quote",
+      "text": "一张白纸，没有负担，好写最新最美的文字，好画最新最美的画图。",
+      "source": "《介绍一个合作社》",
+      "year": "1958",
+      "themes": [
+        "creation",
+        "courage"
+      ],
+      "note": "从零开始的最大优势。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q111",
+      "type": "quote",
+      "text": "自己动手，丰衣足食。",
+      "source": "生产动员大会上的讲话",
+      "year": "1939",
+      "themes": [
+        "creation",
+        "perseverance"
+      ],
+      "note": "不等待、不依赖。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q112",
+      "type": "motto",
+      "text": "实事求是。",
+      "source": "为中共中央党校题词",
+      "year": "1941",
+      "themes": [
+        "method",
+        "practice"
+      ],
+      "note": "四个字，是所有交付的底线。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q113",
+      "type": "quote",
+      "text": "古为今用，洋为中用。",
+      "source": "《关于“古为今用，洋为中用”的批示》",
+      "year": "1964",
+      "themes": [
+        "creation",
+        "writing"
+      ],
+      "note": "借鉴的边界与用法。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q114",
+      "type": "quote",
+      "text": "推陈出新。",
+      "source": "《在延安文艺座谈会上的讲话》等",
+      "year": "1942",
+      "themes": [
+        "creation"
+      ],
+      "note": "先继承，再翻新。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q115",
+      "type": "motto",
+      "text": "为人民服务。",
+      "source": "追悼张思德大会的讲话",
+      "year": "1944",
+      "themes": [
+        "masses",
+        "creation"
+      ],
+      "note": "一切工作的最终验收标准。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q116",
+      "type": "quote",
+      "text": "愚公移山。",
+      "source": "《愚公移山》",
+      "year": "1945",
+      "themes": [
+        "perseverance",
+        "creation"
+      ],
+      "note": "把长期主义讲成一个故事。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q117",
+      "type": "motto",
+      "text": "生的伟大，死的光荣。",
+      "source": "为刘胡兰烈士题词",
+      "year": "1947",
+      "themes": [
+        "courage"
+      ],
+      "note": "对仗极工，慎用，宜用于纪念性语境。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q118",
+      "type": "motto",
+      "text": "向雷锋同志学习。",
+      "source": "题词",
+      "year": "1963",
+      "themes": [
+        "unity",
+        "criticism"
+      ],
+      "note": "树立可模仿的具体榜样。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q119",
+      "type": "quote",
+      "text": "世界上怕就怕“认真”二字，共产党就最讲认真。",
+      "source": "在莫斯科会见中国留学生和实习生的讲话",
+      "year": "1957",
+      "themes": [
+        "method",
+        "perseverance"
+      ],
+      "note": "把“认真”当作竞争力。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q120",
+      "type": "quote",
+      "text": "人是要有一点精神的。",
+      "source": "毛泽东晚年谈话（广泛流传）",
+      "year": "1970",
+      "themes": [
+        "courage",
+        "perseverance"
+      ],
+      "note": "短句，适合放在很长的技术文档末尾。",
+      "attribution": "widely-attributed"
+    },
+    {
+      "id": "q121",
+      "type": "quote",
+      "text": "务必使同志们继续地保持谦虚、谨慎、不骄、不躁的作风，务必使同志们继续地保持艰苦奋斗的作风。",
+      "source": "《在中国共产党第七届中央委员会第二次全体会议上的报告》",
+      "year": "1949",
+      "themes": [
+        "criticism",
+        "perseverance"
+      ],
+      "note": "“两个务必”，成功后最该读的一段。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q122",
+      "type": "quote",
+      "text": "我们的目的一定要达到，我们的目的一定能够达到。",
+      "source": "《中国人民站起来了》",
+      "year": "1949",
+      "themes": [
+        "courage",
+        "strategy"
+      ],
+      "note": "重复式断言，收尾有力量。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q123",
+      "type": "poem",
+      "text": "不到长城非好汉，屈指行程二万。",
+      "source": "《清平乐·六盘山》",
+      "year": "1935",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "目标感最强的一句。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q124",
+      "type": "poem",
+      "text": "问苍茫大地，谁主沉浮？",
+      "source": "《沁园春·长沙》",
+      "year": "1925",
+      "themes": [
+        "youth",
+        "courage"
+      ],
+      "note": "设问起手，适合开篇。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q125",
+      "type": "poem",
+      "text": "恰同学少年，风华正茂；书生意气，挥斥方遒。",
+      "source": "《沁园春·长沙》",
+      "year": "1925",
+      "themes": [
+        "youth",
+        "courage"
+      ],
+      "note": "写团队年轻时的气象。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q126",
+      "type": "poem",
+      "text": "数风流人物，还看今朝。",
+      "source": "《沁园春·雪》",
+      "year": "1936",
+      "themes": [
+        "courage",
+        "creation"
+      ],
+      "note": "把评价权交给当下做事的人。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q127",
+      "type": "poem",
+      "text": "江山如此多娇，引无数英雄竞折腰。",
+      "source": "《沁园春·雪》",
+      "year": "1936",
+      "themes": [
+        "courage"
+      ],
+      "note": "写事物的吸引力。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q128",
+      "type": "poem",
+      "text": "山舞银蛇，原驰蜡象，欲与天公试比高。",
+      "source": "《沁园春·雪》",
+      "year": "1936",
+      "themes": [
+        "courage",
+        "creation"
+      ],
+      "note": "动态化的比喻，气魄来自动词。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q129",
+      "type": "poem",
+      "text": "苍山如海，残阳如血。",
+      "source": "《忆秦娥·娄山关》",
+      "year": "1935",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "以景结情，适合艰难之后的收束。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q130",
+      "type": "poem",
+      "text": "雄关漫道真如铁，而今迈步从头越。",
+      "source": "《忆秦娥·娄山关》",
+      "year": "1935",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "“从头越”三个字，是重启的最佳注脚。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q131",
+      "type": "poem",
+      "text": "红军不怕远征难，万水千山只等闲。",
+      "source": "《七律·长征》",
+      "year": "1935",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "把巨大困难“等闲”化。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q132",
+      "type": "poem",
+      "text": "更喜岷山千里雪，三军过后尽开颜。",
+      "source": "《七律·长征》",
+      "year": "1935",
+      "themes": [
+        "perseverance",
+        "unity"
+      ],
+      "note": "收尾的喜悦，适合项目交付。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q133",
+      "type": "poem",
+      "text": "踏遍青山人未老，风景这边独好。",
+      "source": "《清平乐·会昌》",
+      "year": "1934",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "走过很多路之后的自评。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q134",
+      "type": "poem",
+      "text": "战地黄花分外香。",
+      "source": "《采桑子·重阳》",
+      "year": "1929",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "在压力中辨出美感。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q135",
+      "type": "poem",
+      "text": "一年一度秋风劲，不似春光，胜似春光。",
+      "source": "《采桑子·重阳》",
+      "year": "1929",
+      "themes": [
+        "perseverance",
+        "contradiction"
+      ],
+      "note": "换一个标准，劣势即成优势。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q136",
+      "type": "poem",
+      "text": "赤橙黄绿青蓝紫，谁持彩练当空舞？",
+      "source": "《菩萨蛮·大柏地》",
+      "year": "1933",
+      "themes": [
+        "creation",
+        "courage"
+      ],
+      "note": "用设问把画面写活。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q137",
+      "type": "poem",
+      "text": "装点此关山，今朝更好看。",
+      "source": "《菩萨蛮·大柏地》",
+      "year": "1933",
+      "themes": [
+        "creation",
+        "perseverance"
+      ],
+      "note": "旧伤痕变成新风景。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q138",
+      "type": "poem",
+      "text": "山，快马加鞭未下鞍。惊回首，离天三尺三。",
+      "source": "《十六字令三首》",
+      "year": "1934",
+      "themes": [
+        "time",
+        "courage"
+      ],
+      "note": "速度感极强，适合抢工期收束。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q139",
+      "type": "poem",
+      "text": "喜看稻菽千重浪，遍地英雄下夕烟。",
+      "source": "《七律·到韶山》",
+      "year": "1959",
+      "themes": [
+        "masses",
+        "creation"
+      ],
+      "note": "把功劳写成一幅丰收图。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q140",
+      "type": "poem",
+      "text": "冷眼向洋看世界，热风吹雨洒江天。",
+      "source": "《七律·登庐山》",
+      "year": "1959",
+      "themes": [
+        "strategy",
+        "courage"
+      ],
+      "note": "冷静看外部，热烈做内部。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q141",
+      "type": "poem",
+      "text": "已是悬崖百丈冰，犹有花枝俏。",
+      "source": "《卜算子·咏梅》",
+      "year": "1961",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "极端环境下的存在感。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q142",
+      "type": "poem",
+      "text": "待到山花烂漫时，她在丛中笑。",
+      "source": "《卜算子·咏梅》",
+      "year": "1961",
+      "themes": [
+        "perseverance",
+        "unity"
+      ],
+      "note": "功成不必在我的写法。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q143",
+      "type": "poem",
+      "text": "四海翻腾云水怒，五洲震荡风雷激。",
+      "source": "《满江红·和郭沫若同志》",
+      "year": "1963",
+      "themes": [
+        "courage",
+        "time"
+      ],
+      "note": "大尺度背景，慎用，易空。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q144",
+      "type": "poem",
+      "text": "久有凌云志，重上井冈山。",
+      "source": "《水调歌头·重上井冈山》",
+      "year": "1965",
+      "themes": [
+        "perseverance",
+        "courage"
+      ],
+      "note": "旧地重游、初心回望。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q145",
+      "type": "poem",
+      "text": "到处莺歌燕舞，更有潺潺流水，高路入云端。",
+      "source": "《水调歌头·重上井冈山》",
+      "year": "1965",
+      "themes": [
+        "creation",
+        "perseverance"
+      ],
+      "note": "写“旧貌变新颜”的具体画面。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q146",
+      "type": "poem",
+      "text": "一桥飞架南北，天堑变通途。",
+      "source": "《水调歌头·游泳》",
+      "year": "1956",
+      "themes": [
+        "creation",
+        "strategy"
+      ],
+      "note": "形容打通关键环节。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q147",
+      "type": "poem",
+      "text": "萧瑟秋风今又是，换了人间。",
+      "source": "《浪淘沙·北戴河》",
+      "year": "1954",
+      "themes": [
+        "creation",
+        "time"
+      ],
+      "note": "同景不同世，适合做前后对比。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q148",
+      "type": "poem",
+      "text": "红雨随心翻作浪，青山着意化为桥。",
+      "source": "《七律二首·送瘟神》",
+      "year": "1958",
+      "themes": [
+        "creation",
+        "courage"
+      ],
+      "note": "“随心”“着意”，写主观能动性。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q149",
+      "type": "poem",
+      "text": "一篇读罢头飞雪。",
+      "source": "《贺新郎·读史》",
+      "year": "1964",
+      "themes": [
+        "learning",
+        "time"
+      ],
+      "note": "写读书之重与时间之快。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q150",
+      "type": "poem",
+      "text": "中华儿女多奇志，不爱红装爱武装。",
+      "source": "《七绝·为女民兵题照》",
+      "year": "1961",
+      "themes": [
+        "courage",
+        "youth"
+      ],
+      "note": "写选择与志趣。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q151",
+      "type": "poem",
+      "text": "太平世界，环球同此凉热。",
+      "source": "《念奴娇·昆仑》",
+      "year": "1935",
+      "themes": [
+        "unity",
+        "courage"
+      ],
+      "note": "世界视野的收束句。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q152",
+      "type": "poem",
+      "text": "我欲因之梦寥廓，芙蓉国里尽朝晖。",
+      "source": "《七律·答友人》",
+      "year": "1961",
+      "themes": [
+        "youth",
+        "creation"
+      ],
+      "note": "以明亮的远景作结。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q153",
+      "type": "letter",
+      "text": "你是我二十年前的先生，你现在仍然是我的先生，你将来必定还是我的先生。",
+      "source": "《致徐特立》（1937年1月30日）",
+      "year": "1937",
+      "themes": [
+        "learning",
+        "unity"
+      ],
+      "note": "尊师与谦逊，书信体收束的范本。",
+      "attribution": "certain"
+    },
+    {
+      "id": "q155",
+      "type": "letter",
+      "text": "趁着年纪尚轻，多向自然科学学习，少谈些政治。",
+      "source": "《致毛岸英、毛岸青》（1941年1月31日）",
+      "year": "1941",
+      "themes": [
+        "learning",
+        "youth"
+      ],
+      "note": "对年轻人的具体建议：先打底子。",
+      "attribution": "certain"
+    }
+  ]
+}
